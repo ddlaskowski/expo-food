@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expofood",
+    "scheme": "fastfood",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
