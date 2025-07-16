@@ -20,6 +20,7 @@
     "expo": "53.0.19",
     "expo-blur": "~14.1.5",
     "expo-constants": "~17.1.7",
+    "expo-file-system": "~18.1.11",
     "expo-font": "~13.3.2",
     "expo-haptics": "~14.1.4",
     "expo-image": "~2.3.2",
@@ -30,6 +31,8 @@
     "expo-symbols": "~0.4.5",
     "expo-system-ui": "~5.0.10",
     "expo-web-browser": "~14.2.0",
+    "mime": "^4.0.7",
+    "mime-types": "^3.0.1",
     "nativewind": "^4.1.23",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -42,6 +45,7 @@
     "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
+    "use-debounce": "^10.0.5",
     "zustand": "^5.0.6"
   },
   "devDependencies": {

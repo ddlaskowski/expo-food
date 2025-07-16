@@ -38,15 +38,15 @@ export default Sentry.wrap(function RootLayout() {
     if(error) throw error;
     if(fontsLoaded) SplashScreen.hideAsync();
   }, [fontsLoaded, error])
-
+  
+  useEffect (() => {
+    fetchAuthenticatedUser()
+  }, [])  
     // ✅ Wait for fonts before rendering app
   if (!fontsLoaded) {
     return null;
   }
 
-  useEffect (() => {
-    fetchAuthenticatedUser()
-  }, [])  
 
   if(!fontsLoaded || isLoading) return null;
 
